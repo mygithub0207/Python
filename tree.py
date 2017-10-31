@@ -69,6 +69,8 @@ def mergeTrees(root1, root2):
     root.left = mergeTrees(root1 and root1.left, root2 and root2.left)
     root.right = mergeTrees(root1 and root1.right, root2 and root2.right)
     return root
+
+#### Test the functions
 s1 = "[1,3,2,5]"
 s2 = "[2,1,3,null,4,null,7]"
 root1 = stringToTreeNode(s1)
