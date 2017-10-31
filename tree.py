@@ -89,14 +89,19 @@ def mergeTrees(root1, root2):
     root.right = mergeTrees(root1 and root1.right, root2 and root2.right)
     return root
 
+# ----- new added by zxh -----
+pass
+# ----------------------------
+
 #### Test the functions
-s1 = "[1,3,2,5]"
-s2 = "[2,1,3,null,4,null,7]"
-root1 = stringToTreeNode(s1)
-root2 = stringToTreeNode(s2)
-pre_traversal(root1)
-pre_traversal(root2)
-new_root = mergeTrees(root1, root2)
-pre_traversal(new_root)
+if __name__ == '__main__':
+    s1 = "[1,3,2,5]"
+    s2 = "[2,1,3,null,4,null,7]"
+    root1 = stringToTreeNode(s1)
+    root2 = stringToTreeNode(s2)
+    pre_traversal(root1)
+    pre_traversal(root2)
+    new_root = mergeTrees(root1, root2)
+    pre_traversal(new_root)
 
 
