@@ -1,7 +1,7 @@
 # Python
 Some python projects
 
-Let's begin, shall we?
+Let's begin!
 
-I love :coffee:.
+
 
